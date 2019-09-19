@@ -11,7 +11,7 @@ void setup() {
   pinMode(STEPPER_PIN_2, OUTPUT);
   pinMode(STEPPER_PIN_3, OUTPUT);
   pinMode(STEPPER_PIN_4, OUTPUT);
-  pinMode(input_aufzug, INPUT_PULLUP);
+  pinMode(input_aufzug, INPUT);
 }
 
 void loop() {
